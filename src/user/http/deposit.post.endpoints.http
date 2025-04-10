@@ -1,0 +1,8 @@
+### Make deposit
+POST http://localhost:3000/user/deposit
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjgsImVtYWlsIjoiam9obkBleGFtcGxlLmNvbSIsImlhdCI6MTc0NDI4OTg2NywiZXhwIjoxNzQ0MjkzNDY3LCJhdWQiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAiLCJpc3MiOiJodHRwOi8vbG9jYWxob3N0OjMwMDAifQ.lmgfZ1yMHMXzbZ3yBGGkYYVKcFnq25Nl6t7lJd_2hV8
+
+{
+  "amount": 800
+}

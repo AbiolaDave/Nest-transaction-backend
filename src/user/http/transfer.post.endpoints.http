@@ -1,0 +1,10 @@
+
+POST http://localhost:3000/user/transfer
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjUsImVtYWlsIjoiam9objFAZXhhbXBsZS5jb20iLCJpYXQiOjE3NDQyODcyNDUsImV4cCI6MTc0NDI5MDg0NSwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwIn0.fb_pfP8emqOXhqXezDmdWKeGaBahw_UulKFHouxK1sY
+
+{
+  "amount": 300,
+  "receiverAccontNumber": 1479493091, 
+  "receiverName": "Abiola Dave"
+}

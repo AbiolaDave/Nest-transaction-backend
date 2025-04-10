@@ -1,0 +1,9 @@
+// ### Make withdrawal
+
+POST http://localhost:3000/user/withdraw
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjQsImVtYWlsIjoiam9objFAZXhhbXBsZS5jb20iLCJpYXQiOjE3NDQyODIwODgsImV4cCI6MTc0NDI4NTY4OCwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDozMDAwIn0.iu2aSYyg1MMZge82ffCES754raOUh2jupEkqOHzEZFM
+
+{
+  "amount": 792000
+}

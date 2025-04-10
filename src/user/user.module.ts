@@ -20,7 +20,7 @@ import { Transaction } from 'src/transactions/entity/transaction.entity.dto';
   ],
   exports: [UserService],
   imports: [
-    TypeOrmModule.forFeature([User, Transaction]), // <-- Add Transaction here
+    TypeOrmModule.forFeature([User, Transaction]), 
     forwardRef(() => AuthModule),
     TransactionsModule,
   ],
